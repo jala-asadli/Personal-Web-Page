@@ -25,9 +25,3 @@ This repository contains the **personal website** of Jala Asadli, a third-year I
 - **CSS3**
 - Google Fonts for custom typography.
 
-## How to View
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
