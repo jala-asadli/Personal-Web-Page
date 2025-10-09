@@ -2,49 +2,61 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <form method="post" enctype="text/plain" action="mailto:jalasadli04@gmail.com">
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" placeholder="write first name" required><br>
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname" placeholder="write last name"><br>
-        <br>
-        <label for="email">Your email:</label><br>
-        <input type="email" id="email" name="email" placeholder="write a valid email"><br>
+    <form action="mailto:jalasadli04@gmail.com">
+        <fieldset>
+            <legend>Quick Survey</legend>
 
-        <h3>Gender</h3>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label><br>
-        <br> <br>
-        <h3>What is your work field or major?</h3>
-        <label for="field">Answer:</label>
-        <input type="text" id="field" name="field"><br>
-        <br>
+            <label for="nickname">What is you full name?</label><br>
+            <input type="text" id="nickname" name="first_survey" placeholder="Your full name here"
+                autocomplete="on"><br><br>
 
-        <h3>What are your expectations and purpose in this field?</h3>
-        <label for="ask">Answer:</label>
-        <input type="text" id="ask" name="ask"><br>
+            <label for="num_candy">How old are you?</label><br>
+            <input type="number" id="num_candy" name="first_survey" value="user guess"
+                placeholder="Your answer here"><br><br>
 
+            <label for="fav_candy">What is your major?</label><br>
+            <select name="first_survey" id="fav_candy">
+                <option value="sneakers">BSIT</option>
+                <option value="kitkat">BSCS</option>
+                <option value="bounty">BSEEE</option>
+                <option value="bounty">BBA</option>
+                <option value="bounty">LLB</option>
+                <option value="bounty">BAIS</option>
+            </select> <br><br>
 
-        <h3>You can ask questions that interest you.</h3>
-        <label for="ask">Ask a question:</label>
-        <input type="text" id="ask" name="ask"><br>
-        <br><br>
-        <input type="Submit" value="Submit">
+            <label for="message">Leave a message for me:</label><br>
+            <textarea name="first_survey" id="message" cols="30" rows="10"></textarea><br><br>
+
+            <label for="more_candy">What is your fav candy?</label><br>
+            <input id="more_candy" list="candies" name="first_survey">
+            <datalist id="candies">
+                <option value="Sneakers">
+                <option value="Bounty">
+                <option value="KitKat">
+                <option value="Twixs">
+            </datalist><br><br>
+
+            <button type="button" onclick="alert('Hello!')">Click me!</button><br><br>
+            <button>Submit</button> <br><br>
+
+            <div>Bring your mouse here, after submission<br>
+                <h3>Tadaaaaaaa!!!!!!!!!!!</h3>
+            </div>
+        </fieldset>
+
+        <!-- If the name attribute is omitted, the value of the input field will not be sent at all. -->
+        <!--  If the action attribute is omitted, the action is set to the current page. -->
     </form>
     <hr>
     <nav>
-        <a href="index.html">Home Page</a> |
+        <a href="homepage.html">Home Page</a> |
         <a href="education.html">My Educational Background</a> |
         <a href="contact.html">Contact Me</a> |
         <a href="weekly_schedule.html">My Weekly Schedule</a> |
