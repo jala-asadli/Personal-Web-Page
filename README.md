@@ -1,111 +1,63 @@
-👇
+# Capstone Project: Personal Portfolio Website
 
-🌸 Jala Asadli — Personal Website (Capstone Project)
-📘 Project Overview
+## Project Overview
+This project is my final Capstone Website, created to demonstrate my understanding of HTML and CSS.  
+It is a personal portfolio website where visitors can learn about me, my education, experiences, and how to contact me.  
+The website combines both technical web development skills and aesthetic design elements to create a clear, user-friendly, and visually appealing layout.
 
-This project is a personal website created as part of my Capstone assignment. It represents my creative space — a place to showcase who I am, what I do, and what I enjoy. The website is designed with a playful candy-inspired theme to reflect my personality and creativity while demonstrating my growing web development skills.
+## What You Can Find in This Project
+The website is designed as a complete portfolio that includes:
 
-The website is built using HTML, CSS, and later enhanced with Bootstrap to make it responsive, structured, and easy to maintain.
+- A structured layout with multiple interconnected pages.
+- Organized sections about my personal background, education, and interests.
+- A gallery featuring images and visuals related to my work and personal life.
+- A contact section where visitors can find my email and LinkedIn profile.
+- Interactive and responsive elements that improve user experience.
+- Consistent color themes and design patterns throughout all pages.
 
-🧱 Project Structure
+## Website Pages
 
-The project contains several pages:
+### 1. Home Page (`index.html`)
+- Introduces me and gives an overview of the entire website.
+- Welcomes visitors with a themed header, description, and background image.
 
-Home (index.html) — Introduction and overview of who I am.
+### 2. Education Page (`education.html`)
+- Lists my academic background and relevant educational experiences.
+- Highlights my achievements and key areas of study.
 
-Education (education.html) — My educational background and academic highlights.
+### 3. Gallery Page (`gallery.html`)
+- Displays images related to my interests, activities, and memories.
+- Includes image hover effects, border styling, and alignment features.
 
-Weekly Schedule (weekly_schedule.html) — My organized weekly activities and study plan.
+### 4. Contact Page (`contact.html`)
+- Provides my professional contact details including email and LinkedIn link.
+- Includes a form-style section with text inputs and buttons for user engagement.
 
-Gallery (gallery.html) — A responsive photo gallery showing my interests and moments.
+### 5. CSS File (`style2.css`)
+- Defines all colors, layouts, borders, hover effects, and responsive design features.
+- Ensures that every page maintains a consistent theme and structure.
 
-Contact (contact.html) — Ways to reach out to me (email, LinkedIn, etc.).
+## Technical Skills and Concepts Applied
 
-Questionnaire (questionaire.html) — A small interactive page to make the site more engaging.
+### HTML Skills
+- Used semantic HTML tags like `<header>`, `<section>`, `<div>`, `<p>`, `<img>`, and `<video>`.
+- Created structured layouts across multiple web pages.
+- Implemented links, lists, and forms for interactivity and navigation.
+- Embedded images and videos to enhance the visual appeal of the website.
+- Ensured accessibility through proper hierarchy and descriptive text.
 
-The design is connected with a shared stylesheet, style2.css, for consistent theming and responsive behavior.
+### CSS Skills
+- Applied selectors (element, class, ID, pseudo-classes).
+- Used pseudo-elements like `::before` and `:hover` for interactive effects.
+- Styled elements with borders, rounded corners, margins, and padding.
+- Customized background images and opacity layers for aesthetic design.
+- Implemented text alignment, color schemes, and font styles for consistency.
+- Used transform and scale effects to animate images on hover.
+- Designed a responsive layout that looks balanced on different screen sizes.
+- Styled buttons, forms, and inputs for better user experience.
 
-🧭 Features Implemented
-🔹 Part 3: Unified Navigation
-
-Added a sticky navigation bar visible on all pages.
-
-Navigation stays fixed to the top while scrolling.
-
-Includes hover effects that change link styles.
-
-The active page link has a different color and does not change on hover.
-
-The navbar design complements the candy-inspired theme with pink, orange, and white tones.
-
-🔹 Part 4: Gallery & Responsiveness
-
-Added a Photo Gallery page with 4 images representing my hobbies and life moments.
-
-Used CSS Grid and media queries for responsiveness:
-
-Desktop: 3 images per row
-
-Mobile: 1 image per row
-
-Hover effects make the images slightly enlarge for interactivity.
-
-🔹 Part 5: Introduction to Bootstrap
-
-Integrated Bootstrap via CDN in the <head> section.
-
-Redesigned one page (Gallery or Home) using:
-
-Bootstrap Grid system (rows + columns)
-
-Bootstrap components such as cards and buttons
-
-Utility classes (padding, margin, background colors)
-
-Compared Bootstrap vs. custom CSS:
-
-Easier with Bootstrap: alignment, layout responsiveness, and ready-made design.
-
-Harder with Bootstrap: customizing design to fit a specific personal aesthetic.
-
-🔹 Part 6: Deployment & Documentation
-
-Created this README.md file for documentation.
-
-Pushed updated files on top of my previous Capstone GitHub repository (preserving commit history).
-
-Redeployed via GitHub Pages, replacing the previous version.
-
-Shared the new live link to receive feedback and continue improving.
-
-🛠️ Technologies Used
-
-HTML5 for content structure
-
-CSS3 for styling and responsive layout
-
-Bootstrap 5 for design enhancement and responsive utilities
-
-Git & GitHub Pages for version control and deployment
-
-Canva (for poster design and creativity inspiration)
-
-💡 What I Learned
-
-Through this project, I learned how to:
-
-Build and organize a multi-page website.
-
-Create reusable components like a unified navigation bar.
-
-Make a site responsive using CSS Grid and media queries.
-
-Use Bootstrap to simplify layouts and add ready-made design components.
-
-Deploy and maintain a live project using GitHub Pages.
-
-Document projects clearly through a structured README file.
-
-🎯 Purpose of the Website
-
-This website serves as my personal portfolio and practice project — combining technical skills in HTML/CSS/Bootstrap with my personality and creative interests. It is also a way to continuously grow my design and web development abilities while sharing a bit about myself with the world.
+## Technologies Used
+- **HTML5** – For website structure and content organization.
+- **CSS3** – For visual design, layout styling, and interactivity.
+- **Git & GitHub** – For version control and project management.
+- **GitHub Pages** – For deployment and public hosting.
